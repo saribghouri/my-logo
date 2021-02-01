@@ -1,0 +1,384 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.my-logo-container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-logo-button {
+  height: 700px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 0.01em 16px;
+  width: 100%;
+  min-width: 617px;
+  /* display: flex; */
+}
+@media (min-width: 601px) {
+  .my-logo-button {
+    width: 49.99999%;
+  }
+}
+.logo-about-div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #fff;
+  text-align: center;
+}
+
+.logo-about-div h1 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+.a-button {
+  color: #fff;
+  background-color: #000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: block;
+  /* width: 100%; */
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.about-container {
+  /* color: #fff;
+  background-color: #607d8b;
+  padding: 0.01em 16px;
+  width: 100%; */
+  color: #fff;
+  background-color: #607d8b;
+  padding: 0.01em 16px;
+  width: 100%;
+  min-width: 617px;
+}
+
+@media (min-width: 601px) {
+  .about-container {
+    width: 49.99999%;
+  }
+}
+
+.about-image-div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  color: #fff;
+}
+.about-image-div h1 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.img {
+  width: 50%;
+  margin: 16px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border-style: none;
+}
+.prg-dives {
+  padding: 12px;
+  text-align: left;
+}
+
+.prg-dives p {
+  text-align: left;
+}
+
+.button-two-div {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 601px) {
+  .button-two-div {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.images-container {
+  min-width: 650px;
+  color: #000;
+  background-color: #f1f1f1;
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 601px) {
+  .images-container {
+    width: 49.99999%;
+  }
+}
+.mywork-heading {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: black;
+  text-align: center;
+}
+
+.mywork-heading h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.image-row {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 601px) {
+  .image-row {
+    flex-direction: row;
+    display: flex;
+  }
+}
+
+.images-row {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 601px) {
+  .images-row {
+    flex-direction: row;
+    display: flex;
+  }
+}
+
+.two-image {
+  width: 100%;
+  color: black;
+}
+
+@media (min-width: 601px) {
+  .two-image {
+    width: 49.99999%;
+  }
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.resume-container {
+  min-width: 618px;
+  color: white;
+  background-color: #3f51b5;
+  padding: 0.01em 16px;
+  width: 100%;
+}
+
+.resume-heading {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  color: #fff;
+}
+
+.resume-heading h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 30px;
+  color: #fff;
+}
+
+.resume-heading p {
+  text-align: center;
+}
+.detail-div {
+  padding: 0.01em 16px;
+  display: block;
+  overflow-x: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.table-class {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  text-align: center;
+  color: #fff;
+}
+
+.th {
+  padding: 16px;
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+.tr-class {
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+}
+.td {
+  padding-left: 16px;
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+  color: white;
+}
+
+.td-b {
+  padding-left: 16px;
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+  color: black;
+}
+
+.swing-container {
+  color: #fff;
+  background-color: gray;
+  text-align: center;
+  padding: 0.01em 16px;
+  height: 700px;
+  width: 100%;
+  min-width: 619px;
+}
+@media (min-width: 601px) {
+  .swing-container {
+    width: 49.99999%;
+  }
+}
+
+.swing-container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #fff;
+  text-align: center;
+}
+.swing-div h1 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.contect-container-2 {
+  color: #fff;
+  background-color: #009688;
+  padding: 0.01em 16px;
+  width: 100%;
+  min-width: 619px;
+}
+
+@media (min-width: 601px) {
+  .contect-container-2 {
+    width: 49.99999%;
+  }
+}
+
+.contect-div-2 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding: 12px 24px;
+  color: #fff;
+}
+
+.opacity-p {
+  opacity: 0.6;
+}
+
+.form-container {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 0.01em 16px;
+  padding-top: 52px;
+  padding-bottom: 72px;
+}
+.label-div {
+  margin: 16px;
+  margin-bottom: 16px;
+  color: #000;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  overflow: visible;
+  font: inherit;
+  margin: 0;
+}
+.button-div {
+  color: #fff;
+  background-color: #009688;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: none;
+  font: inherit;
+  margin: 0;
+  margin-left: 81%;
+}
+
+.swing-div {
+  padding-bottom: 64px;
+}
+.contect-class {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 601px) {
+  .contect-class {
+    flex-direction: row;
+    display: flex;
+  }
+}
+
+.section-div {
+  padding-bottom: 20px;
+}
+
+.footer {
+  color: #fff;
+  background-color: #000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding: 0.01em 16px;
+  display: flex;
+  min-width: 1270px;
+}
+
+a {
+  color: inherit;
+}
+
+.footer p {
+  padding: 17px;
+}
